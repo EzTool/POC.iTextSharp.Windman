@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.iTextSharp.Windman.NET461", "POC.iTextSharp.Windman.NET461\POC.iTextSharp.Windman.NET461.csproj", "{C76E6E9E-8390-4DA3-AB69-021E712FA5BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_TEST", "_TEST", "{E9465553-194A-4564-BDE4-5798E67DE408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UT.POC.iTextSharp.Windman.NET461", "_TEST\UT.POC.iTextSharp.Windman.NET461\UT.POC.iTextSharp.Windman.NET461.csproj", "{31E33DB2-E6DF-49F9-9855-F0AD94C48567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C76E6E9E-8390-4DA3-AB69-021E712FA5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76E6E9E-8390-4DA3-AB69-021E712FA5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76E6E9E-8390-4DA3-AB69-021E712FA5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76E6E9E-8390-4DA3-AB69-021E712FA5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E33DB2-E6DF-49F9-9855-F0AD94C48567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E33DB2-E6DF-49F9-9855-F0AD94C48567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E33DB2-E6DF-49F9-9855-F0AD94C48567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E33DB2-E6DF-49F9-9855-F0AD94C48567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31E33DB2-E6DF-49F9-9855-F0AD94C48567} = {E9465553-194A-4564-BDE4-5798E67DE408}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E519114-C02D-4D79-9B9F-50793B8F0027}
+	EndGlobalSection
+EndGlobal
